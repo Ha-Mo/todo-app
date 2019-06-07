@@ -1,0 +1,35 @@
+head{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gainsboro;
+}
+
+h1{
+    font-size: 50px;
+}
+
+form{
+    font-size: 25px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+button{
+    font-size: 20px;
+    width: 25%;
+    background-color: whitesmoke;
+    float: right;
+}
+
+.colum{
+    float: left;
+}
+.colum.side{
+    width: 25%;
+}
+.colum.middle{
+    width: 50%;
+}
