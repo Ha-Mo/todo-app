@@ -1,0 +1,7 @@
+[
+    {
+        "input.type": "checkbox",
+        "input.name": "lernen",
+        "input.id": "lernen"
+    }
+]

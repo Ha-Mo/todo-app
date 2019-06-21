@@ -17,13 +17,17 @@ form{
     width: 100%;
 }
 
+div.hin{
+    display: none;
+}
+
 button{
     font-size: 20px;
     width: 25%;
     background-color: whitesmoke;
     float: right;
 }
-
+/* colum */
 .colum{
     float: left;
 }

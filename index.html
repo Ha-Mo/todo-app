@@ -1,5 +1,5 @@
 <head>
-    <title>TODO Liiste</title>
+    <title>TODO Liste</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -8,16 +8,24 @@
     </div>
     <div class="colum middle">
         <h1>TODO:</h1>
-        <form>
-            <input type="checkbox">
+        <form id="container" name="container">
+            <input type="checkbox" id="ein" value="">
                 Einkaufen
-                <button>Löschen</button><br>
+                <button id="einkaufen">löschen</button><br>
             <input type="checkbox">
                 Hausaufgaben
-                <button>Löschen</button><br>
+                <button id="hausaufgaben">löschen</button><br>
             <input type="checkbox">
                 Aufräumen
-                <button>Löschen</button><br>
+                <button id="aufräumen">löschen</button><br>
         </form>
+        <button id="hinzufuegen">Hinzufügen</button>
+        <div id="hinzu" class="hin">
+            <form class="hin" name="eintrag">
+                <input type="text" name="neu" id="neu" value="">
+            </form>
+            <button id="be">bestätigen</button>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
