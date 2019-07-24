@@ -12,17 +12,20 @@ h1{
 }
 
 form{
-    font-size: 25px;
+    font-size: 100%;
     background-color: whitesmoke;
     width: 100%;
 }
 
 div.hin{
-    display: none;
+    display: block;
 }
-
+div.group{
+    height: 40;
+    padding-bottom: 10;
+}
 button{
-    font-size: 20px;
+    font-size: 80%;
     width: 25%;
     background-color: whitesmoke;
     float: right;
@@ -32,8 +35,8 @@ button{
     float: left;
 }
 .colum.side{
-    width: 25%;
+    width: 20%;
 }
 .colum.middle{
-    width: 50%;
+    width: 60%;
 }
